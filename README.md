@@ -43,7 +43,10 @@ Return Values:
 [0] <span style="color:#A13040;">[Error Message]</span>
 
 Example:
-gpwd set -x <span style="opacity:0.4;">8</span> -s <span style="opacity:0.4;">duolingo</span> -u <span style="opacity:0.4;">duobot</span> -p <span style="opacity:0.4;">#bQ#^@b35g</span> -e <span style="opacity:0.4;">superb@email.com</span> -n <span style="opacity:0.4;">"Alice Wonderland"</span> -q <span style="opacity:0.4;">+61411856144</span>
+```bash
+gpwd set -x 8 -s duolingo -u duobot -p '#bQ#^@b35g' -e 'superb@email.com' -n 'Alice Wonderland' -q '+61411856144'
+> 'Success | Details saved.'
+```
 
 * * *
 ## Get commands
@@ -55,7 +58,7 @@ gpwd set -x <span style="opacity:0.4;">8</span> -s <span style="opacity:0.4;">du
   > username:   supercoolkid
   > email:      super@cool.kid
   > password:   strongpwd123
-
+  ```
 - <span style="opacity:0.6;">**List all services**</span><br/>
   gpwd list<br/>
   Example:
@@ -66,14 +69,14 @@ gpwd set -x <span style="opacity:0.4;">8</span> -s <span style="opacity:0.4;">du
   > twitter   twitter.com
   > youtube   youtube.com
   > ...
-
+  ```
 - <span style="opacity:0.6;">**Copy password to clipboard**</span><br/>
   gpwd pwd [service]<br/>
   Example:
   ```
   gpwd pwd github
   > Password for Github copied to clipboard.
-
+  ```
 - <span style="opacity:0.6;">**Print login credentials**</span><br/>
   gpwd get [service]<br/>
   Example:
@@ -83,7 +86,7 @@ gpwd set -x <span style="opacity:0.4;">8</span> -s <span style="opacity:0.4;">du
   > email:    email@gmail.com
   > password: mypassword123
   > phone:    +1 1234 345 678
-
+  ```
 <hr/>
 <br/>
 * * *
