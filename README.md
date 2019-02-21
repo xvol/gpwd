@@ -50,7 +50,7 @@ gpwd set -x <span style="opacity:0.4;">8</span> -s <span style="opacity:0.4;">du
 - <span style="opacity:0.6;">**Print the information on a given service**</span><br/>
   gpwd info [service(s)]<br/>
   Example:
-  ```bash
+  ```
   gpwd info youtube
   > username:   supercoolkid
   > email:      super@cool.kid
@@ -59,7 +59,7 @@ gpwd set -x <span style="opacity:0.4;">8</span> -s <span style="opacity:0.4;">du
 - <span style="opacity:0.6;">**List all services**</span><br/>
   gpwd list<br/>
   Example:
-  ```bash
+  ```
   gpwd list
   > github    github.com
   > facebook  facebook.com
@@ -70,14 +70,14 @@ gpwd set -x <span style="opacity:0.4;">8</span> -s <span style="opacity:0.4;">du
 - <span style="opacity:0.6;">**Copy password to clipboard**</span><br/>
   gpwd pwd [service]<br/>
   Example:
-  ```bash
+  ```
   gpwd pwd github
   > Password for Github copied to clipboard.
 
 - <span style="opacity:0.6;">**Print login credentials**</span><br/>
   gpwd get [service]<br/>
   Example:
-  ```bash
+  ```
   gpwd get gmail
   > url:      https://gmail.com/
   > email:    email@gmail.com
