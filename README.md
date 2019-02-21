@@ -109,5 +109,10 @@ On a get command, the program will likewise request the master key, before decrp
 
 * * *
 
-.
-
+### Todo
+- Allow for custom credential parameters in the *set* function.
+- Allow user to specify the encryption spec
+- Allow authentication over a specified period
+  - Eg. after 10 minutes, the user must enter master password to continue
+  - Implement by storing a hash of password in a temp file for validation. Requies a background process to re-encrypt when interval is up.
+  - **Increases attack surface**
