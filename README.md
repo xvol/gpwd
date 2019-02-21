@@ -26,7 +26,7 @@ Valid parameters:
 >--domain -d
 
 ### Options
-<span style="color:#30A1A1;">**-x n**</span> Generate random password of length ***n***. Write to file and copy to clipboard. If ***n*** is omitted, default of 10 is used.
+<span style="color:#30A1A1;">**-x n**</span> Generate random password of length ***n***. Write to file and copy to clipboard. If ***n*** is omitted, default of 10 is used.<br/>
 <span style="color:#30A1A1;">**--quiet**</span> Don't write anything to stdout.
 
 Return Values:
