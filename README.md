@@ -44,7 +44,8 @@ Return Values:
 
 Example:
 ```bash
-gpwd set -x 8 -s duolingo -u duobot -p '#bQ#^@b35g' -e 'superb@email.com' -n 'Alice Wonderland' -q '+61411856144'
+gpwd set -x 8 -s youtube -u mychannel -e 'superb@email.com' -n 'Alice Wonderland' -q '+61411856144'
+> 'Generating password...'
 > 'Success | Details saved.'
 ```
 
