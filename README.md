@@ -10,8 +10,17 @@
 
 * * *
 
+## How is this different from any other password manager?
+Most password managers appeal to the masses and utilise clunky GUIs, wasting system resources and complicating the process.
+I wanted to create a simple password manager which:
+- runs simply from the commandline
+- integrates into the system for automation
+- uses intelligent string matching
+- is uncomplicated and fast
+- gives the user complete control
+
 ## Usage:
-Note that in all **get** cases, the name of the service doesn't have to be an exact match. The program will find the closest match. If no matches are found, the program will exit with an error message.
+Note that in all *get* cases, the name of the service doesn't have to be an exact match. The program will find the closest match. If no matches are found, the program will exit with an error message.
 
 ## <span style="opacity:0.6;">Set new login details</span>
 gpwd set <span style="opacity:0.4;">[name of service]</span> [parameters]
@@ -38,19 +47,45 @@ gpwd set -x <span style="opacity:0.4;">8</span> -s <span style="opacity:0.4;">du
 
 * * *
 ## Get commands
-<span style="opacity:0.6;">**Print the information on a given service**</span>
-gpwd info [service(s)]
-<span style="opacity:0.4;"></span>
+- <span style="opacity:0.6;">**Print the information on a given service**</span>
+  gpwd info [service(s)]
+  Example:
+  ```bash
+  gpwd info youtube
+  > username:   supercoolkid
+  > email:      super@cool.kid
+  > password:   strongpwd123
 
-<span style="opacity:0.6;">**List all services**</span>
-gpwd list
+- <span style="opacity:0.6;">**List all services**</span>
+  gpwd list
+  Example:
+  ```bash
+  gpwd list
+  > github    github.com
+  > facebook  facebook.com
+  > twitter   twitter.com
+  > youtube   youtube.com
+  > ...
 
-<span style="opacity:0.6;">**Copy password to clipboard**</span>
-gpwd pwd [service]
+- <span style="opacity:0.6;">**Copy password to clipboard**</span>
+  gpwd pwd [service]
+  Example:
+  ```bash
+  gpwd pwd github
+  > Password for Github copied to clipboard.
 
-<span style="opacity:0.6;">**Print login credentials**</span>
-gpwd get [service]
+- <span style="opacity:0.6;">**Print login credentials**</span>
+  gpwd get [service]
+  Example:
+  ```bash
+  gpwd get gmail
+  > url:      https://gmail.com/
+  > email:    email@gmail.com
+  > password: mypassword123
+  > phone:    +1 1234 345 678
 
+<hr/>
+<br/>
 * * *
 ## How does it work?
 When a user sets a new service file they will be prompted to enter their master key.
