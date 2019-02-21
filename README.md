@@ -1,13 +1,12 @@
-GPwd - Password Manager in C
-
-# GPwd <span style="opacity:0.4;">Password Manager</span>
+# GPwd <span style="opacity:0.4;">Commandline Python Password Manager</span>
 
 ## Program for retreiving passwords from an encrypted file and pushing them neatly to the clipboard.
 
 ## Requirements:
  * Linux
- * xclip       [clipboard]
- * libsodium   [encryption]
+ * xclip [clipboard]
+ * Python >= 3.0
+   * PyCrypto ```pip install pycrypto```
 
 * * *
 
