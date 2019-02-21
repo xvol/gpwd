@@ -47,8 +47,8 @@ gpwd set -x <span style="opacity:0.4;">8</span> -s <span style="opacity:0.4;">du
 
 * * *
 ## Get commands
-- <span style="opacity:0.6;">**Print the information on a given service**</span>
-  gpwd info [service(s)]
+- <span style="opacity:0.6;">**Print the information on a given service**</span><br/>
+  gpwd info [service(s)]<br/>
   Example:
   ```bash
   gpwd info youtube
@@ -56,8 +56,8 @@ gpwd set -x <span style="opacity:0.4;">8</span> -s <span style="opacity:0.4;">du
   > email:      super@cool.kid
   > password:   strongpwd123
 
-- <span style="opacity:0.6;">**List all services**</span>
-  gpwd list
+- <span style="opacity:0.6;">**List all services**</span><br/>
+  gpwd list<br/>
   Example:
   ```bash
   gpwd list
@@ -67,15 +67,15 @@ gpwd set -x <span style="opacity:0.4;">8</span> -s <span style="opacity:0.4;">du
   > youtube   youtube.com
   > ...
 
-- <span style="opacity:0.6;">**Copy password to clipboard**</span>
-  gpwd pwd [service]
+- <span style="opacity:0.6;">**Copy password to clipboard**</span><br/>
+  gpwd pwd [service]<br/>
   Example:
   ```bash
   gpwd pwd github
   > Password for Github copied to clipboard.
 
-- <span style="opacity:0.6;">**Print login credentials**</span>
-  gpwd get [service]
+- <span style="opacity:0.6;">**Print login credentials**</span><br/>
+  gpwd get [service]<br/>
   Example:
   ```bash
   gpwd get gmail
